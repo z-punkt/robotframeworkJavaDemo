@@ -2,6 +2,10 @@
 
 This demo enables to run the robotframeworks's selenium webdemo inside a Maven-driven Java project.
 
+Usage
+-----
+mvn robotframework:run
+
 Resources 
 ---------
 * robotframework webdemo https://bitbucket.org/robotframework/webdemo
