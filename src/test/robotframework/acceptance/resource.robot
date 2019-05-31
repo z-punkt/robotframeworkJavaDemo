@@ -51,3 +51,19 @@ Submit Credentials
 Welcome Page Should Be Open
     Location Should Be    ${WELCOME URL}
     Title Should Be    Welcome Page
+
+Login page is opened
+    Open Browser To Login Page
+
+User inputs credentials
+    Input Username    demo
+    Input Password    mode
+
+User submits input form
+    Submit Credentials
+
+User should be presented with welcome page
+    Welcome Page Should Be Open
+    [Teardown]    Close Browser
+
+
